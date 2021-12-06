@@ -23,6 +23,7 @@ class EnterScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TextField(
+              autofocus: true,
               controller: _textEditingController,
               decoration: const InputDecoration(
                 border: OutlineInputBorder(),
